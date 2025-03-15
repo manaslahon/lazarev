@@ -19,7 +19,7 @@ nav {
     /* background-color: rgb(0, 255, 68); */
     display: flex;
     align-items: flex-start;
-    height: 12vh;
+    height: 9.5vh;
     width: 100%;
     padding: 2vw 10.4vw;
     justify-content: space-between;
@@ -199,5 +199,241 @@ nav button svg {
 	height:100vh;
 	width:100%;
 	background-color:#111;
+	position:relative;
+	padding:0 10.5vw;
+	padding-bottom:14vw;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	border-top: 1px solid #333;
 }
 
+#page2-left{
+	height:100%;
+	width:40%;
+	padding:3vw 0;
+	display:flex;
+	align-items:flex-start;
+	justify-content:space-between;
+	flex-direction:column;
+}
+
+#page2-left p{
+	font-size:1vw;
+}
+
+
+#page2-left h5{
+	width:59%;
+	font-weight:400;
+	font-size:.8vw;
+}
+
+#page2-right{
+	height:100%;
+	width:50%;
+}
+
+.right-elem{
+	position:relative;
+	padding-top:2vw;
+	padding-bottom:5vw;
+	border-bottom:1px solid #333;
+
+}
+
+.right-elem h2{
+	font-size:1vw;
+	font-weight:500;
+
+
+}
+.right-elem img{
+	height:5vw;
+	width:5vw;
+	border-radius:50%;
+	object-fit:cover;
+	position:absolute;
+	opacity:0;
+	scale: 0;
+
+}
+
+#page3{
+	height:100vh;
+	width:100%;
+	background-color:#111;
+	background-image: url(https://lazarev.kiev.ua/la24/reel-cover.webp);
+	background-size:cover;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#page3 video{
+	height:100%;
+	width:100%;
+	position:absolute;
+	transform:scaleX(0.7) scaleY(0);
+	object-fit:cover;
+	opacity:0;
+	z-index:9999;
+	border-radius:30px;
+}
+.page3-center{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	gap: 0.6vw;
+
+}
+
+.page3-center .icon{
+	background-color:#fff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:2.8vw;
+	border-radius:50%;
+}
+
+.page3-center .icon i{
+	color:#000;
+	font-size:2.8vw;
+}
+.page3-center h5{
+	font-size:0.7vw;
+	background-color:#fff;
+	color:#000;
+	font-weight:700;
+	padding: 12px 20px 10px 20px;
+	border-radius:50px;
+	opacity:0;
+	transition:all ease 0.5s;
+	transform:translateY(16%);
+	text-transform:uppercase;
+}
+
+.page3-center:hover h5{
+	opacity:1;
+	transform:translateY(0%);
+}
+
+#page4{
+	min-height:100vh;
+	width:100%;
+	background-color:#fff;
+	position:relative;
+	padding-bottom:10vh;
+}
+
+.section{
+	height:72vh;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:17vh 10vw;
+	padding-bottom:0;
+}
+
+.sec-left{
+	height:100%;
+	width:25%;
+	border-top:2px solid #000;
+}
+
+.sec-left h2{
+	font-size:2vw;
+	font-weight:500;
+	color:#000;
+	margin-top: 3vh;
+}
+
+.sec-left p{
+	font-size:0.9vw;
+	font-weight:400;
+	margin-top:10vh;
+	color:#000;
+
+}
+
+.sec-right{
+	height:100%;
+	width:70%;
+	position:relative;
+}
+
+.sec-right img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
+
+.sec-right video{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	object-fit:cover;
+	opacity:0;
+	transition:opacity ease 0.4s;
+}
+
+#page5{
+	min-height:100vh;
+	width:100%;
+	padding: 5vh 12vw;
+	background-color:#111;
+	position:relative;
+	display:flex;
+	align-items:flex-start;
+	justify-content:space-between;
+}
+
+#page5>button{
+	background-color: #0BA34E;
+	padding: .8vw 2.5vw;
+	font-size: .8vw;
+	font-weight:600;
+	border-radius: 45px;
+	border:none;
+	text-transform:uppercase;
+}
+
+.page5-right{
+	width: 60%;
+}
+
+.page5-right>p{
+	font-size:1.5vw;
+	font-weight:400;
+	text-align:start;
+}
+
+.page5-right>p span{
+	display:inline-block;
+	width:10vw;
+}
+
+#page5-content{
+	width: 100%;
+	margin-top:3vh;
+	padding: 3vh 0;
+	border-top: 2px solid #fff;
+}
+
+#page5-content #flex{
+	display:flex;
+	margin-top: 3vh;
+}
+
+#page5-content #flex h4{
+	border-radius:50px;
+	border: 1px solid #fff;
+	font-size:.6vw;
+	padding: 10px 20px;
+	text-transform:uppercase;
+}
